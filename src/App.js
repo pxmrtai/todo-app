@@ -14,7 +14,8 @@ class App extends Component {
       todoItems: [
         { title: "Go to school", finished: false, id: 1 },
         { title: "Go to market", finished: false, id: 2 },
-        { title: "Go to market", finished: false, id: 3 }
+        { title: "Go to gym", finished: false, id: 1 },
+
       ]
     };
     this.onKeyUp = this.onKeyUp.bind(this);

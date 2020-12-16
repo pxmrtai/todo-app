@@ -5,9 +5,7 @@
   box-shadow: 1px 1px 10px;
   border-radius: 50%;
   background-color: white;
-  position: absolute;
-  left: 45%;
-  bottom: 30px;
+  margin: 50px auto auto auto;
   cursor: pointer;
   transition: 0.4s;
 }
