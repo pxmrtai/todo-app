@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+* {
+  transition: 0.4s;
+}
+.App {
+  font-family: "Nerko One", cursive;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  height: 550px;
+  position: relative;
+  background-color: #4298f5;
+  min-height:100vh ;
+height: auto;
+}
+.App .container {
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+.App .container .when-nothing {
+  transition: 0.4s;
+  background-color: white;
+  border-radius: 50%;
+}
+.App .container .when-nothing .nothing {
+  width: 50%;
+  margin-top: -10px;
+  transition: 0.4s;
+}
+.App .container .when-nothing .talk {
+  position: relative;
+  transition: 0.4s;
+}
+.App .container .when-nothing .talk .chat {
+  margin-top: 20px;
+  position: relative;
+  display: block;
+  width: 150px;
+  margin-left: 50%;
+}
+.App .container .when-nothing .add-more {
+  position: absolute;
+  width: 100px;
+  margin: 45px 0 0 171px;
+}
+.App .container .header {
+  display: flex;
+  width: 100%;
+}
+.App .container .header .title {
+  width: 90%;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.App .container .header .menu {
+  padding: 28px 10px 10px 0px;
+}

@@ -1,0 +1,20 @@
+.todo-list {
+  width: 100%;
+}
+.todo-list .thing {
+  color: black;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.todo-list .thing:hover {
+  box-shadow: 5px 5px 10px;
+}
+.finished {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
